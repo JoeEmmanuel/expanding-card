@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>cards</title>
+</head>
+<body>
+    <div class="container">
+        <div class="cards">
+            <section id="section-1">
+                <img src="./images/image-1.jpeg" alt="">
+                <div class="content">
+                    <h3>card 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, sapiente.</p>
+                    <button class="btn1 btn">Button 1</button>
+                </div>
+            </section>
+
+            <section id="section-2">
+                <img src="./images/image-2.jpeg" alt="">
+                <div class="content">
+                    <h3>card 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, sapiente.</p>
+                    <button class="btn2 btn">Button 2</button>
+                </div>
+            </section>
+
+            <section id="section-3">
+                <img src="./images/image-3.jpeg" alt="">
+                <div class="content">
+                    <div class="text">
+                        <h3>card 3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, sapiente.</p>
+                    </div>
+                        <button class="btn3 btn" >Button 3</button>
+                </div>
+            </section>
+            
+            <!-- <section class="section" id="sec">
+                <div class="content">
+
+                </div>
+            </section> -->
+
+        </div>
+    </div>
+
+    <script>
+        
+        var section1 = document.getElementById("section-1");
+        var sec = document.getElementById("section-2");
+        var section = document.getElementById("section-3");
+
+        document.querySelector(".btn").addEventListener("click", () => {
+           section1.style.background = "red",
+           sec.style.background = "blue",
+           section.style.background = "skyblue"
+     });
+      
+      
+    
+    </script>
+</body>
+</html>
